@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    /* header navigation start  */
+header{
+    background-color: #fff6ead8;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 51px 200px; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 20px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-tilte{
+    font-weight: 800;
+    font-size: 45px;
+    margin: 20px 200px;
+}
+span{
+    color: darkorange;
+}
+button{
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    padding: 18px 35px;
+    background-color: darkorange;
+}
+
+/* -- header-banner  -- */
+.banner-container{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.image-othor img{
+    width: 460px;
+    height: 520px;
+}
+.othor-sub{
+    font-size: 35px;
+    font-weight: 350;
+    margin-right: 25px;
+}
+.othor-name{
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 25px;
+    padding: 10px 0;
+}
+.details{
+    color: #5f5e5e;
+    margin-bottom: 30px;
+}
+
+        /* main area start  */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-area{
+    margin-top: 130px;
+    background-color: #fff6ead8;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about-me{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.section-p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.about-information{
+    display: flex;
+    justify-content: space-around;
+}
+.information{
+    text-align: center;
+}
+.information .name-p{
+    font-size: 14px;
+    color: #5f5e5e;
+    margin-bottom: 10px;
+}
