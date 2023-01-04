@@ -75,6 +75,8 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+    /* section are- 1 star  */
+
 .section-area{
     margin-top: 130px;
     background-color: #fff6ead8;
@@ -101,4 +103,44 @@ main{
     font-size: 14px;
     color: #5f5e5e;
     margin-bottom: 10px;
+}
+
+    /* section are-2 star  */
+.section-2{
+    margin-top: 130px;
+    text-align: center;
+}
+.section-whatdo{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.what-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    background-color: #dbe5e7;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-size: 50px;
+    height: 200px;
+    padding: 0 10px;
+}
+
+.skill-items{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.skill-p{
+    color: #5f5e5e;
+    font-size: 14px;
+}
+
+
+    /* resume section start  */
+.summery-resume{
+    margin-top: 130px;
+    font-size: 30px;
+    text-align: center;
 }
