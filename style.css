@@ -167,6 +167,38 @@ main{
 }
 .cbbutton{
     margin-top: 50px;
-    text-align: center;
-    
+    text-align: center;  
+}
+    /* form section start  */
+.contact-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+    background-color: #fff6ead8;
+}
+.contact-container .contact-title{
+    text-align: left;
+}  
+.contact-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+} 
+.form-description{
+    margin-bottom: 20px;
+    color: #5f5e5e;
+
+}
+.contact-container input, textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding-left: 20px;
+}
+input{
+    height: 50px;
+}
+.lets-connect a, i{
+    font-size: 30px;
+    margin-left: 10px;
 }
