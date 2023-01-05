@@ -99,6 +99,9 @@ main{
 .information{
     text-align: center;
 }
+.information p{
+    font-weight: bold;
+}
 .information .name-p{
     font-size: 14px;
     color: #5f5e5e;
