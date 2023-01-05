@@ -144,3 +144,29 @@ main{
     font-size: 30px;
     text-align: center;
 }
+.resume-title-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.education-sub-1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.education-title{
+    font-size: 16px;
+}
+.education-state{
+    font-size: 14px;
+    color: #5f5e5e;
+    margin: 10px 0;
+}
+.education-description{
+    font-size: 13px;
+    color: #5f5e5e;
+}
+.cbbutton{
+    margin-top: 50px;
+    text-align: center;
+    
+}
