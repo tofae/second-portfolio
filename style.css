@@ -39,6 +39,12 @@ button{
     transition: 0.5s;
     padding: 18px 35px;
     background-color: darkorange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(196, 228, 255);
+    color: red;
 }
 
 /* -- header-banner  -- */
@@ -123,11 +129,16 @@ main{
 }
 .skill{
     background-color: #dbe5e7;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06); */
     border-radius: 10px;
     font-size: 50px;
     height: 200px;
     padding: 0 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.skill:hover{
+    box-shadow: 4px 4px 4px #00000041;
 }
 
 .skill-items{
